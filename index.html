@@ -32,16 +32,6 @@
           <a href="#" class="nav-link">Contato</a>
         </li>
       </ul>
-
-      <!-- Right navbar links -->
-      <ul class="navbar-nav ml-auto">
-        <!-- Navbar Search -->
-        <li class="nav-item">
-          <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
-            <i class="fas fa-th-large"></i>
-          </a>
-        </li>
-      </ul>
     </nav>
     <!-- /.navbar -->
 
@@ -54,16 +44,6 @@
 
       <!-- Sidebar -->
       <div class="sidebar">
-        <!-- Sidebar user (optional) -->
-        <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-          <div class="image">
-            <img src="../../dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
-          </div>
-          <div class="info">
-            <a href="#" class="d-block">Alexander Pierce</a>
-          </div>
-        </div>
-
         <!-- SidebarSearch Form -->
         <div class="form-inline">
           <div class="input-group" data-widget="sidebar-search">
@@ -89,6 +69,12 @@
                 <a href="/" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Pesquisa sobre Eventos</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="/" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Sobre nós</p>
                 </a>
               </li>
           </ul>
@@ -137,15 +123,10 @@
                   <input type="text" id="inputName" class="form-control">
                 </div>
                 <div class="form-group">
-                  <label for="inputAge">Idade</label>
-                  <input type="number" id="inputAge" class="form-control">
-                </div>
-                <div class="form-group">
                   <label for="gender">Gênero</label>
                   <select id="gender" class="form-control custom-select">
                     <option value="masculino">Masculino</option>
                     <option value="feminino">Feminino</option>
-                    <option value="nao-binario">Não-Binário</option>
                     <option value="prefiro-nao-dizer">Prefiro não dizer</option>
                   </select>
                 </div>
@@ -154,7 +135,7 @@
                   <input type="text" id="contact" class="form-control" placeholder="E-mail ou telefone">
                 </div>
                 <div class="form-group">
-                  <label for="ageRange">Faixa Etária de Interesse</label>
+                  <label for="ageRange">Faixa Etária</label>
                   <select id="ageRange" class="form-control custom-select">
                     <option value="0-12">0-12 anos</option>
                     <option value="13-18">13-18 anos</option>
@@ -239,6 +220,8 @@
   </div>
   <!-- ./wrapper -->
 
+  <!-- My Script -->
+  <script src="./js/script.js"></script>
   <!-- jQuery -->
   <script src="../../plugins/jquery/jquery.min.js"></script>
   <!-- Bootstrap 4 -->
